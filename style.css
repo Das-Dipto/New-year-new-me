@@ -2,10 +2,107 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
      /* background-image: linear-gradient(to right, rgba(243, 149, 8, 0.733), rgba(0, 0, 0, 0)),
     url('images/watch.png'); */
 }
 
+/* header style */
 header{
-    
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/banner/banner3.png);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5rem 0rem 8rem 0rem;
 }
+
+header .content-container{
+    width: 40%;
+    margin:5rem 7rem 0 auto;
+    text-align: end;
+}
+
+.content-container h1{
+    /* width: 50%; */
+    color: white;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+}
+
+.content-container p{
+    /* width: 50%; */
+    margin-top:2rem;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.common-button{
+    outline: none;
+    border: none;
+    margin-top: 1.8rem;
+    padding:1rem;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #005FAC;
+}
+
+/* main style */
+main{
+    width: 85%;
+    margin:8rem auto 0;
+}
+
+/* main -> myFailure section style */
+.myfailures{
+    margin-top:5rem;
+    display: flex;
+    gap:8rem
+}
+
+.myfailures img{
+    width: 40%;
+ }
+
+.failures{
+    width: 40%;
+    margin-top: 10rem;
+}
+
+.failures h1{
+    width: 80%;
+    font-weight:700;
+    font-size: 40px;
+    line-height: 47px;
+    color:#151414;
+    margin-bottom: 1.4rem;
+}
+
+.failures p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.failures-list{
+    margin-top: 1rem;
+}
+
+.point{
+    display: flex;
+    align-items: center;
+}
+
+.point i{
+    color:#16D886;
+    margin-right: 0.4rem;
+}
+
