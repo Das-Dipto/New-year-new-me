@@ -3,8 +3,28 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
-     /* background-image: linear-gradient(to right, rgba(243, 149, 8, 0.733), rgba(0, 0, 0, 0)),
-    url('images/watch.png'); */
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Used in all the anchor element used in this project */
+a:link, a:visited{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1.8rem;
+    padding:1rem;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: #005FAC;
+}
+
+a:hover, a:active{
+    background-color:rgba(204, 10, 204, 0.836);
+    color: #ffffff;
 }
 
 /* header style */
@@ -44,21 +64,10 @@ header .content-container{
     line-height: 26px;
 }
 
-.common-button{
-    outline: none;
-    border: none;
-    margin-top: 1.8rem;
-    padding:1rem;
-    font-weight: 600;
-    font-size: 20px;
-    border-radius: 5px;
-    color: #005FAC;
-}
-
 /* main style */
 main{
     width: 85%;
-    margin:8rem auto 0;
+    margin:0 auto ;
 }
 
 /* main -> myFailure section style */
@@ -106,3 +115,57 @@ main{
     margin-right: 0.4rem;
 }
 
+/* main -> myPlan section style */
+.myPlan{
+    margin: 9rem 0 0 1rem;
+    text-align: center;
+}
+
+.myPlan h1{
+    font-size: 3rem;
+}
+
+.myPlan .plan-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem 0 0;
+}
+
+.plan-list .plan{
+    width: 22%;
+}
+
+.plan img{
+    width: 40%;
+    margin: 1rem 0;
+}
+
+.plan h3{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.plan p{
+    font-size: 0.9rem;
+}
+
+/* main -> positive mindset section style */
+.positive-mindset{
+    margin: 10rem 0;
+    width: 100%;
+    min-height: 45vh;
+    background-image: linear-gradient(to right, rgba(0, 95, 172, 1), rgba(0, 0, 0, 0)),
+    url('images/watch.png');
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:2rem 3rem;
+}
+
+.positive-mindset h1{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    width:60%;
+}
