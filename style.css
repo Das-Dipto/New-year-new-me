@@ -99,6 +99,7 @@ main{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    text-align: justify;
 }
 
 .failures-list{
@@ -148,6 +149,64 @@ main{
 .plan p{
     font-size: 0.9rem;
 }
+
+/* main -> book-I-want-to-read section style */
+.book-I-want-to-read{
+    width: 90%;
+    margin:13rem auto  0;
+}
+
+.book-I-want-to-read .headings{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+.headings img{
+    width: 5%;
+}
+
+.headings h1{
+    font-size: 3rem;
+    margin: 0 2rem;
+}
+
+.book-list{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+}
+
+.book-list .book-intro{
+    width: 45%;
+    display: flex;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 18px 4px rgb(231, 231, 231); 
+}
+
+.book-list .book-img{
+    width: 20%;
+    margin: 0 1rem 0rem 0rem;
+}
+
+.book-basic-info{
+    margin-left: 1.5rem;
+    font-weight: 700;
+}
+
+.book-title{
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+    color:rgb(255, 68, 0);
+}
+
+.book-author{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color:#0D99FF;
+}
+
 
 /* main -> positive mindset section style */
 .positive-mindset{
